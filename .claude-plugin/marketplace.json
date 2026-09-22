@@ -1,0 +1,35 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "commit-message-skill",
+  "description": "A single-plugin marketplace shipping the commit-message skill for Claude Code.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Ivan Afanasov",
+    "url": "https://github.com/Suuunboy"
+  },
+  "plugins": [
+    {
+      "name": "commit-message",
+      "displayName": "Commit Message",
+      "source": "./",
+      "description": "Compose high-quality git commit messages in English and print them in the chat as copyable text — never committing, never writing to disk, never adding AI attribution. Detects and follows the convention the repository actually uses.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ivan Afanasov",
+        "url": "https://github.com/Suuunboy"
+      },
+      "homepage": "https://github.com/Suuunboy/commit-message-skill#readme",
+      "repository": "https://github.com/Suuunboy/commit-message-skill",
+      "license": "MIT",
+      "keywords": [
+        "git",
+        "commit",
+        "commit-message",
+        "conventional-commits",
+        "commitlint"
+      ],
+      "category": "productivity",
+      "tags": ["git", "workflow"]
+    }
+  ]
+}

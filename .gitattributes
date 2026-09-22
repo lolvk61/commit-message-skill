@@ -1,0 +1,3 @@
+# The repository is Markdown and JSON only — normalize to LF everywhere so a
+# Windows clone with core.autocrlf=true does not rewrite every file on checkout.
+* text=auto eol=lf
