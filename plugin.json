@@ -1,0 +1,8 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "commit-message",
+  "version": "1.0.0",
+  "description": "Draft accurate Git commit messages in Codex and ChatGPT from diffs or change descriptions.",
+  "license": "MIT",
+  "keywords": ["git", "commit-message", "conventional-commits", "codex", "chatgpt"]
+}

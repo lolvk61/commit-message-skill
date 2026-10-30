@@ -1,0 +1,4 @@
+interface:
+  display_name: "Commit Message"
+  short_description: "Draft accurate commits from diffs and context"
+  default_prompt: "Use $commit-message to draft a message for the selected changes, matching the project's conventions."

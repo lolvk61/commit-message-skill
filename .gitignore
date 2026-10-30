@@ -7,3 +7,6 @@ desktop.ini
 .idea/
 .vscode/
 *.swp
+
+# Local distribution archives
+dist/
